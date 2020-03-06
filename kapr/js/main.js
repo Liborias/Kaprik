@@ -1,33 +1,33 @@
-$(document).ready(function() {
-	 // Owl carousel code
+$(document).ready(function () {
+	// Owl carousel code
 	$('#slider').nivoSlider();
-	
+
 	$("#owl-example").owlCarousel({
-	  	autoPlay : true
+		autoPlay: true
 	});
 
 	// Dropdown Visibility on hover
-	$('li.dropdown').on('mouseover', function(){
-	  		$(this).addClass('open');
+	$('li.dropdown').on('mouseover', function () {
+		$(this).addClass('open');
 	})
 
-	.on('mouseout', function(){
-		$(this).removeClass('open');
-	});
+		.on('mouseout', function () {
+			$(this).removeClass('open');
+		});
 
 	$("html").niceScroll({
-		cursorcolor : "#90c322",
-		cursorwidth : "10px" ,
-		zindex: 9999 ,
-		cursorborder: "none"	,
-		cursorborderradius : "0" ,
+		cursorcolor: "#007A1A",
+		cursorwidth: "10px",
+		zindex: 9999,
+		cursorborder: "none",
+		cursorborderradius: "0",
 		autohidemode: false,
 	});
-	
+
 	// fade in #back-top
 
 	$(window).scroll(function () {
-		if ($(this).scrollTop() >800) {
+		if ($(this).scrollTop() > 800) {
 			$('#back-top').fadeIn('slow');
 		} else {
 			$('#back-top').fadeOut('slow');
