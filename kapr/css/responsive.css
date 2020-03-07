@@ -93,6 +93,9 @@ px      68    160    252    344    436    528    620    712    */
 
 
 /* Example Media Queries */
+
+
+
 @media screen and (max-width: 65.375em) {
  
     #blog .blog-zone > li .cbp_tmtime span:last-child {
