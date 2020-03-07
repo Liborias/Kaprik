@@ -824,9 +824,21 @@ footer .block span {
 
 
 
+.priceList {
 
+	color: #007A1A;
+	padding:"1"; 
+	width:"90%"; 
+	height:"30%";										
+										
+}
+/*.priceList td{
+	border: 1px solid #007A1A;
+}*/
 
-
+.tableSpace {
+	width: 200px;
+}
 
 
 
@@ -969,9 +981,7 @@ footer .block span {
 	border-color: #007A1A;
 	color: #fff;
 }
-#blog .pagination>li>a {
-	color: #333;
-}
+
 #blog .blog-zone > li:last-child .blog-box {
 	margin-bottom: 0;
 }
