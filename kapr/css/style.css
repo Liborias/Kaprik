@@ -50,7 +50,7 @@ section+section { margin-top: 50px; }
 
 
 /*------------- Top bar----------------*/
-#top {
+.topPage {
 	width: 100%;
 	background: #007A1A;
 	font-size: 12px;
@@ -58,15 +58,15 @@ section+section { margin-top: 50px; }
 	padding: 5px 0;
 
 }
-#top .contact-action { margin-bottom: 0; }
-#top p i {
+.topPage .contact-action { margin-bottom: 0; }
+.topPage p i {
 	font-size: 16px;
 	margin-right: 10px;
 }
-#top .login-cart li {
+.topPage .login-cart li {
 	float: left;
 }
-#top .login-cart li a {
+.topPage .login-cart li a {
 	color: #fff ;
 	padding: 0 15px;
 	font-size: 14px;
@@ -76,10 +76,10 @@ section+section { margin-top: 50px; }
 	-o-transition: .4s ease-in-out;
 	transition: .4s ease-in-out;
 }
-#top .login-cart li a:hover {
+.topPage .login-cart li a:hover {
 	color: #555;
 }
-#top .login-cart li a i {
+.topPage .login-cart li a i {
 	margin-right: 3px;
 }
 header {
@@ -89,7 +89,19 @@ header {
 
 
 .logo img {
-	width: 110px;
+	max-width: 110px;
+	margin-left: 5px;
+
+}
+.logoKaprik{
+	box-sizing: border-box;
+	color: #555;
+	font-family:"Yanone Kaffeesatz", sans-serif;
+	font-size:50px;
+	font-weight:500;
+	display: flex;
+	justify-content: center;
+	flex-shrink: 0;
 }
 
 /*	Search Box Start
@@ -827,10 +839,25 @@ footer .block span {
 .priceList {
 
 	color: #007A1A;
-	padding:"1"; 
-	width:"90%"; 
-	height:"30%";										
+	padding:"1";
+	max-width: 800px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+/*	width:"90%"; 
+	height:"30%";	*/									
 										
+}
+.priceList div{
+	min-width: 350px;
+	
+}
+.autocampTable {
+	margin-right: 30px;
+	margin-bottom: 20px;
+	
 }
 /*.priceList td{
 	border: 1px solid #007A1A;
@@ -857,7 +884,7 @@ footer .block span {
     top: 0;
     bottom: 0;
     width: 6px;
-    background: #c7e488;
+    background: #009420;
     left: 1%;
     margin-left: -8px;
 }
@@ -927,7 +954,7 @@ footer .block span {
     color: #fff;
     background: #007A1A;
     border-radius: 50%;
-    box-shadow: 0 0 0 8px #C7E488;
+    box-shadow: 0 0 0 8px #009420;
     text-align: center;
     left: 1%;
     top: 0;

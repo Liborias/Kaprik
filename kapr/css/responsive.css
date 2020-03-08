@@ -34,7 +34,6 @@ px      68    160    252    */
 	}
 
 
-
 	/*-----------Blog--------------*/
 	#blog .blog-zone > li {
 		margin-bottom: 80px;
@@ -48,6 +47,28 @@ px      68    160    252    */
 	#topic-header {
 		text-align: center;
 	}
+	
+	header {
+		padding: 20px 0 15px;
+		text-align: center;
+	}
+	.logoKaprik{
+		font-size:40px;
+	}
+	.logo img {
+		max-width: 90px;
+		margin-left: 5px;
+	}
+	.topPage {
+		height: 5px;
+		padding: 0;
+	}
+	.topPage .row{
+		display: none;
+	}	
+	.autocampTable {
+		margin-right: 5px;
+	
 }
 
 
@@ -61,8 +82,7 @@ cols    1     2      3      4      5
 px      68    160    252    344    436    */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	
-	
+
 
 }
 
@@ -80,8 +100,7 @@ cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	
-	
+
 }
 
 
