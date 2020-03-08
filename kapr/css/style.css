@@ -843,7 +843,7 @@ footer .block span {
 	max-width: 800px;
 	margin-bottom: 20px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: left;
 	flex-wrap: wrap;
 	
 /*	width:"90%"; 
@@ -855,7 +855,7 @@ footer .block span {
 	
 }
 .autocampTable {
-	margin-right: 30px;
+	margin-right: 100px;
 	margin-bottom: 20px;
 	
 }
