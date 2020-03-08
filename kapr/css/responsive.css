@@ -82,8 +82,10 @@ cols    1     2      3      4      5
 px      68    160    252    344    436    */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-
-
+	#features .container{
+		display: flex;
+		justify-content: stretch;
+	}
 }
 
 
@@ -119,7 +121,8 @@ px      68    160    252    344    436    528    620    712    */
  
     #blog .blog-zone > li .cbp_tmtime span:last-child {
         font-size: 1.5em;
-    }
+	}
+	
 }
  
 @media screen and (max-width: 47.2em) {
@@ -162,5 +165,7 @@ px      68    160    252    344    436    528    620    712    */
         float: left;
         left: auto;
         margin: -55px 5px 0 0px;
-    }
+	}
+
+}
 }
