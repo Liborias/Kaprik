@@ -626,6 +626,15 @@ footer .block span {
 	text-decoration: underline;
 }
 
+.greenHover, .greenHover span {
+	color: #00841B !important;
+	font-weight: 500;
+}
+.greenHover:hover, .greenHover:hover span {
+	color: rgb(0, 112, 22) !important;
+	
+}
+
 
 /*	Social Icon Start
     ==================================================*/
