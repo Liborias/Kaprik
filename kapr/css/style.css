@@ -878,7 +878,9 @@ footer .block span {
 	width: 200px;
 }
 
-
+.planek {
+	max-width: 100%;
+} 
 
 
 
