@@ -637,6 +637,16 @@ footer .block span {
   color: rgb(0, 112, 22) !important;
 }
 
+.contactNumberFooter {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.telNr {
+  margin-left: 5px;
+}
+
 /*	Social Icon Start
     ==================================================*/
 
