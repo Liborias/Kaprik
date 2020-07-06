@@ -841,9 +841,13 @@ footer .block span {
   display: flex;
   justify-content: left;
   flex-wrap: wrap;
+  font-size: 1.5em;
 
   /*	width:"90%"; 
 	height:"30%";	*/
+}
+.priceList td:nth-child(2n){
+  text-align: right;
 }
 .priceList div {
   min-width: 350px;
