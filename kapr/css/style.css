@@ -836,25 +836,29 @@ footer .block span {
 .priceList {
   color: #007a1a;
   padding: "1";
-  max-width: 800px;
   margin-bottom: 20px;
   display: flex;
   justify-content: left;
   flex-wrap: wrap;
-  font-size: 1.5em;
+  font-size: 21px;
 
   /*	width:"90%"; 
 	height:"30%";	*/
 }
-.priceList td:nth-child(2n){
+.priceList td:nth-child(2n) {
   text-align: right;
 }
+.priceList th:nth-child(2n) {
+  text-align: center;
+}
+
 .priceList div {
   min-width: 350px;
 }
 .autocampTable {
   margin-right: 100px;
   margin-bottom: 20px;
+  min-width: 300px;
 }
 /*.priceList td{
 	border: 1px solid #007A1A;
