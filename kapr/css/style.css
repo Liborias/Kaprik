@@ -1232,3 +1232,10 @@ footer .block span {
 .top-catagori-heading {
   margin-top: 0;
 }
+
+/* gallery
+==================================== */
+
+#gallery .row {
+  margin-bottom: 20px;
+}
